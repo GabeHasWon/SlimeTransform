@@ -1,0 +1,77 @@
+Buffs: {
+	BlueSlimeMountBuff: {
+		DisplayName: Slimified
+		Description: You feel much slimier now...
+	}
+
+	GreenSlimeMountBuff: {
+		DisplayName: "{$BlueSlimeMountBuff.DisplayName}"
+		Description: You feel a bit slimier now...
+	}
+
+	PurpleSlimeMountBuff: {
+		DisplayName: "{$BlueSlimeMountBuff.DisplayName}"
+		Description: You feel significantly slimier now...
+	}
+
+	RedSlimeMountBuff: {
+		DisplayName: "{$BlueSlimeMountBuff.DisplayName}"
+		Description: You feel heavily slimier now...
+	}
+
+	YellowSlimeMountBuff: {
+		DisplayName: "{$BlueSlimeMountBuff.DisplayName}"
+		Description: You feel extremely slimier now...
+	}
+}
+
+Items: {
+	BlueSlimeTransformationItem: {
+		DisplayName: Magic Gel (Blue)
+		Tooltip:
+			'''
+			Transforms the wearer into a slime
+			The slime jumps higher and faster
+			'''
+	}
+
+	GreenSlimeTransformationItem: {
+		DisplayName: Magic Gel (Green)
+		Tooltip: "{$BlueSlimeTransformationItem.Tooltip}"
+	}
+
+	PurpleSlimeTransformationItem: {
+		DisplayName: Magic Gel (Purple)
+		Tooltip: "{$BlueSlimeTransformationItem.Tooltip}"
+	}
+
+	RedSlimeTransformationItem: {
+		DisplayName: Magic Gel (Red)
+		Tooltip: "{$BlueSlimeTransformationItem.Tooltip}"
+	}
+
+	YellowSlimeTransformationItem: {
+		DisplayName: Magic Gel (Yellow)
+		Tooltip: "{$BlueSlimeTransformationItem.Tooltip}"
+	}
+}
+
+SlimeImmunityNotice: Slimes do not attack you
+SlimeMovementNotice: The slime can only jump to move, including extra jumps.
+SlimeMoveStyleNotice: (Movement style can be changed in settings)
+
+Configs: {
+	SlimeTransformConfig: {
+		DisplayName: Slime Transform Config
+
+		SpecialSlimeMovement: {
+			Label: Slime-Like Movement
+			Tooltip: When true, the Slime transformation forces the player to use slime-like movement. Otherwise, it's just augmented but normal player movement.
+		}
+
+		FloatInWater: {
+			Label: Float In Water
+			Tooltip: When true, the Slime transformation floats in water. This is always true when Slime-Like Movement is on.
+		}
+	}
+}

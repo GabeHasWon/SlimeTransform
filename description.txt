@@ -1,0 +1,17 @@
+-- Slime Transformation --
+by GabeHasWon
+commissioned by vagrantenchanter
+
+This mod adds in a very simple Slime transformation, which turns the player into a Slime.
+The transformations (which are treated as mounts) can be crafted with at least 100 gel at a bottle.
+
+The Slime jumps higher by default, and inherits the player's movement and flight abilities (wings, double jump, run speed).
+The Slime also has a couple minor touches that make it feel that much more like you're a Slime!
+
+For those who seek a truly authentic slime experience, the Slime-Like Movement configuration option makes the Slime only move in air.
+This config option also disables flight.
+
+---
+
+As mentioned above, this was commissioned by vagrantenchanter! This was a fun little project.
+If YOU (the reader) want to commission, feel free to let me know on Discord or Twitter @gabehaswon!

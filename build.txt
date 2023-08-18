@@ -1,0 +1,3 @@
+displayName = Slime Transformation
+author = GabeHasWon
+version = 2.0

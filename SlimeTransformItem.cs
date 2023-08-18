@@ -32,7 +32,7 @@ public abstract class SlimeTransformItem : ModItem
         Item.width = 20;
         Item.height = 22;
         Item.rare = ItemRarityID.Green;
-        Item.value = Item.buyPrice(0, 0, 5, 0);
+        Item.value = Item.buyPrice(0, 0, 10, 0);
         Item.UseSound = SoundID.Item25;
     }
 

@@ -83,8 +83,9 @@ public abstract class BaseSlimeTransformMount : ModMount
 		else //Slime movement
         {
 			player.autoJump = true; //Allow spam jump
+            MountData.flightTimeMax = 0;
 
-			if (player.OnGround())
+            if (player.OnGround())
 			{
 				MountData.acceleration = 0;
 				MountData.runSpeed = 0;

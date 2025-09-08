@@ -1,6 +1,1 @@
-﻿- Ported to 1.4.4
-- Fixed animated items drawing improperly in the slime
-- Fixed items not using a shader
-- Added localization
-- Made food items draw in the slime
-- Minor touchups
+﻿- Fixed turning off Slime-Like Movement config and turning it back on keeping flight time on slime transformations
